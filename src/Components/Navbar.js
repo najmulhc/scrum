@@ -12,7 +12,7 @@ const Navbar = () => {
           </ul>
           <ul className='flex justify-center items-center gap-6 uppercase font-medium'>
               <li className='text-white text-md'>login</li>
-              <li className='text-white text-md px-2 py-1 border-2 border-white rounded-full'>sign Up</li> 
+              <li className='text-white text-md px-4 py-1 border-2 border-white rounded-full'>sign Up</li> 
           </ul>
       </nav>
   )

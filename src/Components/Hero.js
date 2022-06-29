@@ -1,34 +1,22 @@
 import Countdown from "react-countdown";
 import hero from "../Images/Hero.png";
+import Footer from "./Footer";
 import Navbar from "./Navbar";
+import TimeContainer from "./TimeContainer";
 const Hero = () => {
   const renderer = ({ hours, minutes, seconds, completed }) => {
-    if (completed) {
-      // Render a completed state
-    
-    } else {
-      // Render a countdown
+    if (!completed) {  
       return (
-        <>
-          
-          <div className=" h-32 rounded-xl bg-white bg-opacity-20 text-white text-center p-4 m-2 flex justify-center items-center flex-col">
-            <h1 className="font-bold text-7xl">0{hours}</h1>
-            <h2 className="text-md ">Hours</h2>
-          </div>
-          <div className="w-32 h-32 rounded-xl bg-white bg-opacity-20 text-white text-center p-4  m-2 flex justify-center items-center flex-col">
-            <h1 className="font-bold text-7xl">{minutes}</h1>
-            <h2 className="text-md ">Minutes</h2>
-          </div>
-          <div className="w-32 h-32 rounded-xl bg-white bg-opacity-20 text-white text-center p-4  m-2 flex justify-center items-center flex-col">
-            <h1 className="font-bold text-7xl">{seconds}</h1>
-            <h2 className="text-md ">Seconds</h2>
-          </div>
+        <> 
+          <TimeContainer time={hours} str="Hours" />  
+          <TimeContainer time={minutes} str="Minutes" /> 
+          <TimeContainer time={seconds} str="Seconds" />
         </>
       )
     }
   };
   return (
-    <section className="hero relative ">
+    <header className="hero static">
       <Navbar></Navbar>
       <div className="container mx-auto w-full h-full flex flex-col justify-center items-start">
         <h2 className="bg-white text-[#9921E8] px-6 py-1 font-medium rounded-full inline-block">
@@ -48,8 +36,9 @@ const Hero = () => {
         src={hero}
         className="absolute left-[1090px] top-[300px] scale-125 m-0 p-0"
         alt=""
-      />
-    </section>
+      /> 
+      <Footer /> 
+    </header>
   );
 };
 
