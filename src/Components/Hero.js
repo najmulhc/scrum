@@ -16,7 +16,7 @@ const Hero = () => {
     }
   };
   return (
-    <header className="hero static">
+    <header className="hero ">
       <Navbar></Navbar>
       <div className="container mx-auto w-full h-full flex flex-col justify-center items-start">
         <h2 className="bg-white text-[#9921E8] px-6 py-1 font-medium rounded-full inline-block">
@@ -37,7 +37,7 @@ const Hero = () => {
         className="absolute left-[1090px] top-[300px] scale-125 m-0 p-0"
         alt=""
       /> 
-      <Footer /> 
+     
     </header>
   );
 };
