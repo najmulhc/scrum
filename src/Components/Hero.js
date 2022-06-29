@@ -10,17 +10,18 @@ const Hero = () => {
       // Render a countdown
       return (
         <>
-          <div className="w-40 h-40 rounded bg-white bg-opacity-20 text-white text-center p-8 m-8">
-            <h1 className="font-bold text-3xl">{hours}</h1>
-            <h2 className="text-lg mt-4">Hours</h2>
+          
+          <div className=" h-32 rounded-xl bg-white bg-opacity-20 text-white text-center p-4 m-2 flex justify-center items-center flex-col">
+            <h1 className="font-bold text-7xl">0{hours}</h1>
+            <h2 className="text-md ">Hours</h2>
           </div>
-          <div className="w-40 h-40 rounded bg-white bg-opacity-20 text-white text-center p-8 m-8">
-            <h1 className="font-bold text-3xl">{minutes}</h1>
-            <h2 className="text-lg mt-4">Minutes</h2>
+          <div className="w-32 h-32 rounded-xl bg-white bg-opacity-20 text-white text-center p-4  m-2 flex justify-center items-center flex-col">
+            <h1 className="font-bold text-7xl">{minutes}</h1>
+            <h2 className="text-md ">Minutes</h2>
           </div>
-          <div className="w-40 h-40 rounded bg-white bg-opacity-20 text-white text-center p-8  m-8">
-            <h1 className="font-bold text-3xl">{seconds}</h1>
-            <h2 className="text-lg mt-4">Seconds</h2>
+          <div className="w-32 h-32 rounded-xl bg-white bg-opacity-20 text-white text-center p-4  m-2 flex justify-center items-center flex-col">
+            <h1 className="font-bold text-7xl">{seconds}</h1>
+            <h2 className="text-md ">Seconds</h2>
           </div>
         </>
       )
