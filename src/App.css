@@ -11,3 +11,9 @@
 
   background: radial-gradient(50% 50% at 50% 50%, #5f72be 0%, #9921e8 100%);
 }
+.counter-container{
+  width: 500px;
+  height: 200px;
+ 
+  margin-top: 100px;
+}
