@@ -1,8 +1,8 @@
-import { IoMailOutline } from "react-icons/io5";
 import Dribbble from "./Icons/Dribbble";
 import Facebook from "./Icons/Facebook";
 import Figma from "./Icons/Figma";
 import Mail from "./Icons/Mail";
+import Mail2 from "./Icons/Mail2";
 import Phone from "./Icons/Phone";
 import WhatsApp from "./Icons/WhatsApp";
 import Youtube from "./Icons/Youtube";
@@ -50,7 +50,7 @@ const Footer = () => {
             </div>
             <div className="flex items-center gap-4">
               <h1 className="text-3xl p-4 rounded-full bg-white bg-opacity-10 inline-block">
-                <Mail/>
+                <Mail />
               </h1>
               <div>
                 <h3 className="text-thin leading-6 opacity-70">
@@ -71,7 +71,9 @@ const Footer = () => {
             action=""
             className="flex w-full bg-white p-2 rounded-full bg-opacity-20 mt-12"
           >
-            <Mail className="text-2xl ml-4 text-white my-auto" />
+            <h5 className="my-auto text-md ml-4">
+              <Mail2 />
+            </h5>
             <input
               type="email"
               className="text-lg text-white bg-white bg-opacity-0 w-full p-2 opacity-100"
@@ -93,12 +95,17 @@ const Footer = () => {
             <p className="text-thin leading-6 opacity-70">{item}</p>
           ))}
         </div>
-        <div className="container mx-auto flex gap-4 my-4">
-          {icons.map((icon) => (
-            <h2 className="text-3xl p-4 rounded-full bg-white bg-opacity-10 inline-block">
-              {icon}
-            </h2>
-          ))}
+        <div className="container mx-auto grid grid-cols-2">
+          <div className="flex gap-4 my-4 mt-12">
+            {icons.map((icon) => (
+              <h2 className="text-3xl p-4 rounded-full bg-white bg-opacity-10 ">
+                {icon}
+              </h2>
+            ))}
+          </div>
+          <h3 className="opacity-70 font-thin text-right mr-16 mt-20">
+            Ⓒ 2000-2022,All Rights Reserved
+          </h3>
         </div>
       </div>
     </footer>
