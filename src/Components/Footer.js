@@ -69,7 +69,7 @@ const Footer = () => {
           </p>
           <form
             action=""
-            className="flex w-full bg-white p-2 rounded-full bg-opacity-20 mt-12"
+            className="flex w-full bg-white p-2 rounded-full bg-opacity-10 mt-12"
           >
             <h5 className="my-auto text-md ml-4">
               <Mail2 />
@@ -81,7 +81,7 @@ const Footer = () => {
             />
             <button
               type="submit"
-              className="bg-cyan-700 text-white   text-lg px-4 py-2 rounded-full"
+              className="bg-[#537CE5] text-white   text-lg px-4 py-2 rounded-full"
             >
               Submit
             </button>
