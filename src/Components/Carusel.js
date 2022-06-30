@@ -1,9 +1,9 @@
 import React from "react";
-import { Swiper, SwiperSlide  } from "swiper/react";
+import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 import CourseCard from "./CourseCard";
 const Carusel = () => {
-    const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+  const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
   return (
     <>
       <Swiper
@@ -13,12 +13,15 @@ const Carusel = () => {
         pagination={{
           clickable: true,
         }}
+        navigation={ true}
         modules={[Pagination]}
-        className=" flex gap-4 "
+        className="   "
       >
-              {
-                  cards.map(card => <SwiperSlide><CourseCard/> </SwiperSlide>) 
-        }
+        {cards.map((card) => (
+          <SwiperSlide>
+            <CourseCard />{" "}
+          </SwiperSlide>
+        ))}
       </Swiper>
     </>
   );

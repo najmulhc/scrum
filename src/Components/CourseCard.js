@@ -9,7 +9,7 @@ const CourseCard = () => {
   const times = [1, 2, 3, 4];
   // as there is no multiple data in figma file, I am hardcoding data here. You can send props data to it to make dynamic cards
   return (
-    <div className="shadow-2xl rounded-2xl my-20">
+    <div className="shadow-2xl rounded-2xl my-20  ">
       <img src={CourseImg} className="w-full" alt="" />
       <div className="px-8 py-4">
         <div className="flex justify-between">
