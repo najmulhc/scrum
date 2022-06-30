@@ -8,14 +8,14 @@ const Carusel = () => {
     <>
       <Swiper
         slidesPerView={4}
-        spaceBetween={50}
+        spaceBetween={0}
         grabCursor={true}
         pagination={{
           clickable: true,
         }}
         navigation={ true}
         modules={[Pagination]}
-        className="   "
+        className=" p-20 "
       >
         {cards.map((card) => (
           <SwiperSlide>
