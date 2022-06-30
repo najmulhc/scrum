@@ -45,7 +45,7 @@ const Footer = () => {
                 <h3 className="text-thin leading-6 opacity-70">
                   Have a question?
                 </h3>
-                <h2 className="text-2xl font-semibold">310-437-2766</h2>
+                <h2 className="text-2xl font-medium">310-437-2766</h2>
               </div>
             </div>
             <div className="flex items-center gap-4">
@@ -56,13 +56,13 @@ const Footer = () => {
                 <h3 className="text-thin leading-6 opacity-70">
                   Contact us at
                 </h3>
-                <h2 className="text-2xl font-semibold">unreal@outlook.com</h2>
+                <h2 className="text-2xl font-medium">unreal@outlook.com</h2>
               </div>
             </div>
           </div>
         </div>
         <div className="p-16 ">
-          <h1 className="text-4xl font-bold mb-8">Newsletter</h1>
+          <h1 className="text-3xl font-bold mb-8">Newsletter</h1>
           <p className="text-thin leading-6 opacity-70">
             Be the first one to know about discounts, offers and event weekly in
             your mailbox. You can unsubscribe whenever you like with one click.

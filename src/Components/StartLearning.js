@@ -10,7 +10,7 @@ const StartLearning = () => {
   return (
     <section className="container mx-auto py-10 grid grid-cols-2">
       <div className=" my-auto justify-center   w-full">
-        <h1 className="text-[#9921E8] text-5xl font-bold mt-10">
+        <h1 className="text-[#9921E8] text-5xl font-bold mt-10 leading-[1.125em]">
           Start learning with <br /> us right now!
         </h1>
         <h3 className="text-xl font-medium my-6">Choose from 100+ online video <br /> courses with new updates.</h3>

@@ -19,7 +19,7 @@ const Hero = () => {
     <header className="hero ">
       <Navbar></Navbar>
       <div className="container mx-auto w-full h-full flex flex-col justify-center items-start">
-        <h2 className="bg-white text-[#9921E8] px-6 py-1 font-medium rounded-full inline-block">
+        <h2 className="bg-white text-[#9921E8] px-6 py-1 font-bold rounded-full inline-block">
           #MOST TRUSTED CERTIFICATIONS BY THE INDUSTRY
         </h2>
         <h1 className="text-white text-5xl font-semibold my-8">Unleash Your SCRUM Skils, <br /> Grab More Attention to Résumé</h1>

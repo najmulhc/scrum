@@ -18,10 +18,10 @@ const CourseCard = () => {
           </h2>
           <CourseIcon className="" />
         </div>
-        <h3 className="text-[14px]">Samay Jain, Ex-KPMG</h3>
+        <h3 className="text-[14px] mt-2">Samay Jain, Ex-KPMG</h3>
         <div className="flex gap-4 items-center justify-start">
           <h3 className="text-md">4.5</h3>{" "}
-          <div className="flex justify-start">
+          <div className="flex justify-start my-4">
             {times.map((num) => (
               <FullStar />
             ))}{" "}
